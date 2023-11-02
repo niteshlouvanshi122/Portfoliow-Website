@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
-import blogApplication from '../assets/portfolio/blog-application.jpeg';
-import covidWorld from '../assets/portfolio/covid-worldometer.jpeg';
-import restaurant from '../assets/portfolio/Restaurant.png';
-import etherpay from '../assets/portfolio/etherpay.png';
-import demo from '../assets/portfolio/demo.png';
-import reactWeather from '../assets/portfolio/reactWeather.jpg';
+import blogApplication from '../assets/portfolio/Summarize Articles.png';
+import covidWorld from '../assets/portfolio/Captures 04-08-2023 12_24_51.png';
+import restaurant from '../assets/portfolio/Photos 04-08-2023 12_27_07.png';
+import etherpay from '../assets/portfolio/React App - Google Chrome 04-08-2023 12_29_26.png';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -13,40 +11,27 @@ const Projects = () => {
     {
       id: 1,
       src: blogApplication,
-      demoUrl: 'https://youtu.be/DCEKMQ_5HB0',
+      demoUrl: 'https://youtu.be/BANqI10Pi0w',
       codeUrl: 'https://github.com/trishitaNandy/blog-application'
     },
     {
       id: 2,
       src: covidWorld,
-      demoUrl: 'https://youtu.be/bDCLbfkdy0s',
-      codeUrl: 'https://github.com/trishitaNandy/CovidWorldometer/tree/main/site'
+      demoUrl: 'https://youtu.be/FN7oHR5xcB0',
+      codeUrl: 'https://github.com/niteshlouvanshi122/newsapp'
     },
     {
         id: 3,
         src: restaurant,
-        demoUrl: 'https://trishitanandy.github.io/Restaurent-Website/Restaurant-site/',
+        demoUrl: 'https://youtu.be/dFRV9sFaIUM',
         codeUrl: 'https://github.com/trishitaNandy/Restaurent-Website'
     },
     {
         id: 4,
         src: etherpay,
-        demoUrl: 'https://ether-pay.netlify.app/',
+        demoUrl: 'https://youtu.be/-oYdbrS94kU',
         codeUrl: 'https://github.com/trishitaNandy/EtherPay-Blockchain'
     },
-    {
-        id: 5,
-        src: demo,
-        demoUrl: 'https://example.com/demo2',
-        codeUrl: 'https://example.com/demo2'
-    },
-    {
-        id: 6,
-        src: demo,
-        demoUrl: 'https://example.com/demo2',
-        codeUrl: 'https://example.com/demo2'
-    },
-    // Add demoUrl and codeUrl for other projects
   ];
 
   const handleButtonClick = (demoUrl, codeUrl) => {

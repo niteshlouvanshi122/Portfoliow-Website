@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 const About = () => {
   const openResumeLink = () => {
-    window.open('https://drive.google.com/file/d/1PXvuqcFSEi9dcvfW0wI6C0G5DoyGLC1F/view', '_blank');
+    window.open('https://drive.google.com/file/d/1wK4TDjt03HxkUur6ibpzUQ-4CnbZGh2V/view', '_blank');
   };
 
   return (
